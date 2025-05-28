@@ -1,36 +1,42 @@
 import asyncio
 import websockets
 import json
-
-# Guarda el último estado de controles
-control_state = {
-    "up": False,
-    "down": False,
-    "left": False,
-    "right": False,
-    "brake": False,
-    "shift": False
-}
+import random
 
 async def handler(websocket):
-    print("Cliente conectado.")
+    print("✅ Cliente conectado")
     try:
-        async for message in websocket:
-            try:
-                data = json.loads(message)
-                for key in control_state:
-                    if key in data:
-                        control_state[key] = data[key]
-                print("Estado de control:", control_state)
-            except json.JSONDecodeError:
-                print("Mensaje no es JSON:", message)
-    except websockets.exceptions.ConnectionClosed:
-        print("Cliente desconectado.")
+        current_state = {
+            "acceleration": 0,
+            "steering": 0.0,
+            "brake": False,
+            "four_wheel_drive": True
+        }
+
+        while True:
+            # Cada 2 segundos, genera nuevos valores aleatorios
+            current_state["acceleration"] = random.choice([-1, 0, 1])  # retroceso, neutro o avance
+            current_state["steering"] = random.uniform(-1.0, 1.0)      # gira de un lado a otro
+            current_state["brake"] = random.choice([True, False])      # frena o no
+            current_state["four_wheel_drive"] = random.choice([True, False])
+
+            # Envía el mismo estado 20 veces (0.1s * 20 = 2s)
+            for _ in range(20):
+                await websocket.send(json.dumps(current_state))
+                await asyncio.sleep(0.1)
+    except websockets.ConnectionClosed:
+        print("❌ Cliente desconectado")
 
 async def main():
     async with websockets.serve(handler, "localhost", 8765):
-        print("Servidor WebSocket escuchando en ws://localhost:8765")
-        await asyncio.Future()  # Ejecuta indefinidamente
+        print("Servidor WebSocket iniciado en ws://localhost:8765")
+        try:
+            await asyncio.Future()  # Run forever
+        except asyncio.CancelledError:
+            print("🛑 Servidor detenido manualmente.")
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    try:
+        asyncio.run(main())
+    except KeyboardInterrupt:
+        print("🚪 Cerrando servidor...")
