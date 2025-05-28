@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://lu3gnlqtravn"]
+[gd_scene load_steps=28 format=3 uid="uid://lu3gnlqtravn"]
 
 [ext_resource type="ArrayMesh" uid="uid://bvlonasab64of" path="res://src/assets/tractor/body.obj" id="1_5dov8"]
 [ext_resource type="Script" uid="uid://bag0qbnly8xhs" path="res://src/scripts/tractor_control.gd" id="1_o4gen"]
@@ -10,14 +10,14 @@
 [ext_resource type="Texture2D" uid="uid://xwfix3ep2r7e" path="res://src/assets/tractor/img/willi_vTrim.bmp.png" id="4_o4gen"]
 [ext_resource type="Texture2D" uid="uid://d2u45csm22kjq" path="res://src/assets/tractor/img/willi_vDoorPNorm.bmp.png" id="5_631v3"]
 [ext_resource type="Texture2D" uid="uid://bpcgobvna5pne" path="res://src/assets/tractor/img/willi_vDoorDNorm.bmp.png" id="6_qamaa"]
+[ext_resource type="Script" uid="uid://b2o8ox8ellcea" path="res://src/scripts/pivot.gd" id="11_631v3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ajol"]
 cull_mode = 2
 albedo_texture = ExtResource("2_6mdf1")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qeexc"]
-cull_mode = 2
-albedo_texture = ExtResource("4_axs00")
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o4gen"]
+albedo_texture = ExtResource("3_25qnh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g1wt1"]
 cull_mode = 2
@@ -76,7 +76,7 @@ script = ExtResource("1_o4gen")
 mesh = ExtResource("1_5dov8")
 skeleton = NodePath("../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_3ajol")
-surface_material_override/1 = SubResource("StandardMaterial3D_qeexc")
+surface_material_override/1 = SubResource("StandardMaterial3D_o4gen")
 surface_material_override/2 = SubResource("StandardMaterial3D_g1wt1")
 surface_material_override/3 = SubResource("StandardMaterial3D_g3ll3")
 surface_material_override/4 = SubResource("StandardMaterial3D_ov03q")
@@ -87,64 +87,69 @@ surface_material_override/6 = SubResource("StandardMaterial3D_tp445")
 shape = SubResource("ConvexPolygonShape3D_gjnad")
 
 [node name="VehicleWheelTR" type="VehicleWheel3D" parent="VehicleBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.745, -0.341, -1.06)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.965018, -0.341, -1.06)
 use_as_traction = true
-suspension_stiffness = 150.0
+suspension_stiffness = 100.0
 suspension_max_force = 15000.0
 damping_compression = 1.2
 damping_relaxation = 1.2
 
 [node name="RuedaT" type="MeshInstance3D" parent="VehicleBody3D/VehicleWheelTR"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.221951, 0, 0)
 mesh = ExtResource("2_6f86y")
 surface_material_override/0 = SubResource("StandardMaterial3D_y7aua")
 surface_material_override/1 = SubResource("StandardMaterial3D_0gwe0")
 
 [node name="VehicleWheelTL" type="VehicleWheel3D" parent="VehicleBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.74463, -0.341036, -1.06028)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.965, -0.341, -1.06)
 use_as_traction = true
-suspension_stiffness = 150.0
+suspension_stiffness = 100.0
 suspension_max_force = 15000.0
 damping_compression = 1.2
 damping_relaxation = 1.2
 
 [node name="RuedaT" type="MeshInstance3D" parent="VehicleBody3D/VehicleWheelTL"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.222, 0, 0)
 mesh = ExtResource("2_6f86y")
 skeleton = NodePath("../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_eut8b")
 surface_material_override/1 = SubResource("StandardMaterial3D_ke16n")
 
 [node name="VehicleWheelDR" type="VehicleWheel3D" parent="VehicleBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.788, -0.462, 1.358)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.940404, -0.462, 1.358)
 use_as_traction = true
 use_as_steering = true
 wheel_radius = 0.375
-suspension_stiffness = 150.0
+suspension_stiffness = 100.0
 suspension_max_force = 15000.0
 damping_compression = 1.2
 damping_relaxation = 1.2
 
 [node name="RuedaD" type="MeshInstance3D" parent="VehicleBody3D/VehicleWheelDR"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10268, 0, 0)
 mesh = ExtResource("3_gjnad")
 surface_material_override/0 = SubResource("StandardMaterial3D_2kndp")
 surface_material_override/1 = SubResource("StandardMaterial3D_d5e4d")
 
 [node name="VehicleWheelDL" type="VehicleWheel3D" parent="VehicleBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.788359, -0.462035, 1.35787)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.94, -0.462, 1.358)
 use_as_traction = true
 use_as_steering = true
 wheel_radius = 0.375
-suspension_stiffness = 150.0
+suspension_stiffness = 100.0
 suspension_max_force = 15000.0
 damping_compression = 1.2
 damping_relaxation = 1.2
 
 [node name="RuedaD" type="MeshInstance3D" parent="VehicleBody3D/VehicleWheelDL"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.103, 0, 0)
 mesh = ExtResource("3_gjnad")
 skeleton = NodePath("../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_a7b7n")
 surface_material_override/1 = SubResource("StandardMaterial3D_8gy7w")
 
-[node name="Node3D" type="Node3D" parent="VehicleBody3D"]
+[node name="pivot" type="Node3D" parent="VehicleBody3D"]
+script = ExtResource("11_631v3")
 
-[node name="Camera3D" type="Camera3D" parent="VehicleBody3D/Node3D"]
+[node name="Camera3D" type="Camera3D" parent="VehicleBody3D/pivot"]
 transform = Transform3D(-0.985903, 0, 0.167319, 0.07706, 0.887631, 0.454064, -0.148518, 0.460556, -0.875117, 0.225406, 1.35745, -3.06055)
