@@ -1,0 +1,82 @@
+# Blender 4.4.0 MTL File: 'None'
+# www.blender.org
+
+newmtl _BottomA_m_009.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/BottomA.bmp.png
+
+newmtl _engineB_m1.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/engineB.bmp.png
+
+newmtl _willi_vDoorDNorm_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vDoorDNorm.bmp.png
+
+newmtl _willi_vDoorPNorm_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vDoorPNorm.bmp.png
+
+newmtl _willi_vHoodNorm_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vHoodNorm.bmp.png
+
+newmtl _willi_vTireA_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vTireA.bmp.png
+
+newmtl _willi_vTrim_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vTrim.bmp.png
+
+newmtl _willi_vWheel_m.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Blender/Tractor/willi_vWheel.bmp.png

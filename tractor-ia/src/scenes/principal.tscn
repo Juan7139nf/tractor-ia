@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=3 uid="uid://ux7vxowvnb7q"]
+
+[ext_resource type="PackedScene" uid="uid://dgb8mk6x6gbrm" path="res://src/scenes/terreno_01.tscn" id="1_vucek"]
+[ext_resource type="PackedScene" uid="uid://lu3gnlqtravn" path="res://src/scenes/tractor.tscn" id="2_k0hga"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_k0hga"]
+sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+
+[sub_resource type="Sky" id="Sky_8opvm"]
+sky_material = SubResource("ProceduralSkyMaterial_k0hga")
+
+[sub_resource type="Environment" id="Environment_la25g"]
+background_mode = 2
+sky = SubResource("Sky_8opvm")
+tonemap_mode = 2
+glow_enabled = true
+
+[node name="principal" type="Node"]
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Node3D"]
+environment = SubResource("Environment_la25g")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Node3D"]
+transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
+shadow_enabled = true
+
+[node name="StaticBody3D" parent="." instance=ExtResource("1_vucek")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.385663, 0, -1.2258)
+
+[node name="tractor" parent="." instance=ExtResource("2_k0hga")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.367782, 1.68183, -0.671288)
