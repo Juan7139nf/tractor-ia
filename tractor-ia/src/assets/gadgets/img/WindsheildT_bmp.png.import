@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5r1hhhhirvnv"
-path.s3tc="res://.godot/imported/willi_vHoodNorm.bmp.png-23a1c7dcacda1a482498d9ef91ce4699.s3tc.ctex"
+uid="uid://dfa3sw40qweq5"
+path.s3tc="res://.godot/imported/WindsheildT_bmp.png-066217e774b53344eb0b62c1b1431ca4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://src/assets/tractor/img/willi_vHoodNorm.bmp.png"
-dest_files=["res://.godot/imported/willi_vHoodNorm.bmp.png-23a1c7dcacda1a482498d9ef91ce4699.s3tc.ctex"]
+source_file="res://src/assets/gadgets/img/WindsheildT_bmp.png"
+dest_files=["res://.godot/imported/WindsheildT_bmp.png-066217e774b53344eb0b62c1b1431ca4.s3tc.ctex"]
 
 [params]
 

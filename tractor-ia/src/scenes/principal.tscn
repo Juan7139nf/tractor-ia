@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://ux7vxowvnb7q"]
 
-[ext_resource type="PackedScene" uid="uid://dgb8mk6x6gbrm" path="res://src/scenes/terreno_01.tscn" id="1_vucek"]
+[ext_resource type="PackedScene" uid="uid://dakwsxqeyeixj" path="res://src/scenes/terreno_02.tscn" id="2_8opvm"]
 [ext_resource type="PackedScene" uid="uid://lu3gnlqtravn" path="res://src/scenes/tractor.tscn" id="2_k0hga"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_k0hga"]
@@ -27,8 +27,7 @@ environment = SubResource("Environment_la25g")
 transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
 shadow_enabled = true
 
-[node name="StaticBody3D" parent="." instance=ExtResource("1_vucek")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.385663, 0, -1.2258)
-
 [node name="tractor" parent="." instance=ExtResource("2_k0hga")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.367782, 1.68183, -0.671288)
+
+[node name="Node3D2" parent="." instance=ExtResource("2_8opvm")]

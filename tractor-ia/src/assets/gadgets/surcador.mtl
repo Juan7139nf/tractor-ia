@@ -1,0 +1,772 @@
+# Blender 4.4.0 MTL File: 'None'
+# www.blender.org
+
+newmtl BottomA_m1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl BottomA_m1.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/BottomA_bmp.png
+
+newmtl WindsheildT_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl WindsheildT_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/WindsheildT_bmp.png
+
+newmtl cHears_lights_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl cHears_lights_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/cHears_lights_bmp.png
+
+newmtl engine_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl engine_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/engine_bmp.png
+
+newmtl plowK_vSalt_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowK_vSalt_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowK_vSalt_bmp.png
+
+newmtl plowk_vBackNorm_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vBackNorm_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vBackNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorDNorm_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorDNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vDoorPNorm_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vDoorPNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vHoodNorm_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vHoodNorm_bmp.png
+
+newmtl plowk_vInt_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vInt_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vInt_bmp.png
+
+newmtl plowk_vRoof_m
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.003
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.004
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.006
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.007
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png
+
+newmtl plowk_vRoof_m.008
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
+map_Kd D:/Model/Hit and Run/Plow King/plowk_vRoof_bmp.png

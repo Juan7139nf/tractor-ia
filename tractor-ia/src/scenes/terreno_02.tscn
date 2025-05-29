@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3 uid="uid://dakwsxqeyeixj"]
+
+[ext_resource type="Script" uid="uid://dxarw24nuqum0" path="res://src/scripts/terreno02.gd" id="1_l3dmd"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_uxrm8"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_l3dmd"]
+points = PackedVector3Array(-1, 0, -1, -1, 0, 1, 1, 0, -1, 1, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_tvgar"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+script = ExtResource("1_l3dmd")
+
+[node name="base" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, -0.1, 0)
+visible = false
+mesh = SubResource("PlaneMesh_uxrm8")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_l3dmd")
+
+[node name="esquina01" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.5, 0, 50.5)
+mesh = SubResource("BoxMesh_tvgar")
+
+[node name="esquina02" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.5, 0, -50.5)
+mesh = SubResource("BoxMesh_tvgar")
+skeleton = NodePath("../esquina01")
+
+[node name="esquina03" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.5, 0, 50.5)
+mesh = SubResource("BoxMesh_tvgar")
+
+[node name="esquina04" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.5, 0, -50.5)
+mesh = SubResource("BoxMesh_tvgar")
+skeleton = NodePath("../esquina01")

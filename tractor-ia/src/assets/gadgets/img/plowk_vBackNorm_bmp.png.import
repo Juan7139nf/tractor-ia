@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5r1hhhhirvnv"
-path.s3tc="res://.godot/imported/willi_vHoodNorm.bmp.png-23a1c7dcacda1a482498d9ef91ce4699.s3tc.ctex"
+uid="uid://sbswaqak3tqt"
+path.s3tc="res://.godot/imported/plowk_vBackNorm_bmp.png-4b3e67d471de02d46aaf7af197014074.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://src/assets/tractor/img/willi_vHoodNorm.bmp.png"
-dest_files=["res://.godot/imported/willi_vHoodNorm.bmp.png-23a1c7dcacda1a482498d9ef91ce4699.s3tc.ctex"]
+source_file="res://src/assets/gadgets/img/plowk_vBackNorm_bmp.png"
+dest_files=["res://.godot/imported/plowk_vBackNorm_bmp.png-4b3e67d471de02d46aaf7af197014074.s3tc.ctex"]
 
 [params]
 

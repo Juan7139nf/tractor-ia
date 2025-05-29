@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://lu3gnlqtravn"]
+[gd_scene load_steps=44 format=3 uid="uid://lu3gnlqtravn"]
 
 [ext_resource type="ArrayMesh" uid="uid://bvlonasab64of" path="res://src/assets/tractor/body.obj" id="1_5dov8"]
 [ext_resource type="Script" uid="uid://bag0qbnly8xhs" path="res://src/scripts/tractor_control.gd" id="1_o4gen"]
@@ -6,22 +6,25 @@
 [ext_resource type="Texture2D" uid="uid://br7ntoixhc7xw" path="res://src/assets/tractor/img/BottomA.bmp.png" id="2_6mdf1"]
 [ext_resource type="Texture2D" uid="uid://nkvofms7dgpr" path="res://src/assets/tractor/img/willi_vTireA.bmp.png" id="3_25qnh"]
 [ext_resource type="ArrayMesh" uid="uid://dm40qrlebkcau" path="res://src/assets/tractor/RuedaD.obj" id="3_gjnad"]
+[ext_resource type="Texture2D" uid="uid://c5r1hhhhirvnv" path="res://src/assets/tractor/img/willi_vHoodNorm.bmp.png" id="3_qamaa"]
 [ext_resource type="Texture2D" uid="uid://cf2ugvjblhklh" path="res://src/assets/tractor/img/willi_vWheel.bmp.png" id="4_axs00"]
 [ext_resource type="Texture2D" uid="uid://xwfix3ep2r7e" path="res://src/assets/tractor/img/willi_vTrim.bmp.png" id="4_o4gen"]
 [ext_resource type="Texture2D" uid="uid://d2u45csm22kjq" path="res://src/assets/tractor/img/willi_vDoorPNorm.bmp.png" id="5_631v3"]
 [ext_resource type="Texture2D" uid="uid://bpcgobvna5pne" path="res://src/assets/tractor/img/willi_vDoorDNorm.bmp.png" id="6_qamaa"]
 [ext_resource type="Script" uid="uid://b2o8ox8ellcea" path="res://src/scripts/pivot.gd" id="11_631v3"]
+[ext_resource type="ArrayMesh" uid="uid://cyb34y067wblg" path="res://src/assets/gadgets/surcador.obj" id="13_g1wt1"]
+[ext_resource type="Texture2D" uid="uid://13apapcel7vs" path="res://src/assets/gadgets/img/plowk_vRoof_bmp.png" id="14_g3ll3"]
+[ext_resource type="Texture2D" uid="uid://btvmxm4cspadm" path="res://src/assets/gadgets/img/plowk_vHoodNorm_bmp.png" id="15_ov03q"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ajol"]
-cull_mode = 2
-albedo_texture = ExtResource("2_6mdf1")
+albedo_texture = ExtResource("3_qamaa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o4gen"]
 albedo_texture = ExtResource("3_25qnh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g1wt1"]
 cull_mode = 2
-albedo_texture = ExtResource("4_o4gen")
+albedo_texture = ExtResource("2_6mdf1")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g3ll3"]
 cull_mode = 2
@@ -65,6 +68,84 @@ albedo_texture = ExtResource("3_25qnh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8gy7w"]
 albedo_texture = ExtResource("4_axs00")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h0co2"]
+albedo_texture = ExtResource("14_g3ll3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_foa87"]
+albedo_texture = ExtResource("5_631v3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_enld1"]
+albedo_texture = ExtResource("15_ov03q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_snfe4"]
+albedo_texture = ExtResource("15_ov03q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drkp8"]
+albedo_texture = ExtResource("15_ov03q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_es0cu"]
+albedo_texture = ExtResource("14_g3ll3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oji6d"]
+albedo_texture = ExtResource("6_qamaa")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8teb1"]
+size = Vector3(1.68207, 0.513184, 0.46167)
+
+[sub_resource type="Animation" id="Animation_ov03q"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("StaticBody3D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0.523599, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_g1wt1"]
+resource_name = "activar_surcador"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("StaticBody3D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.13, 2.86, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(0.523599, 0, 0), Vector3(0.523599, 0, 0), Vector3(-0.261799, 0, 0), Vector3(-0.261799, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_g3ll3"]
+resource_name = "desactivar_surcador"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("StaticBody3D:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.13, 2.77, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector3(-0.261799, 0, 0), Vector3(-0.261799, 0, 0), Vector3(0.523599, 0, 0), Vector3(0.523599, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lagky"]
+_data = {
+&"RESET": SubResource("Animation_ov03q"),
+&"activar_surcador": SubResource("Animation_g1wt1"),
+&"desactivar_surcador": SubResource("Animation_g3ll3")
+}
 
 [node name="tractor" type="Node3D"]
 
@@ -153,3 +234,29 @@ script = ExtResource("11_631v3")
 
 [node name="Camera3D" type="Camera3D" parent="VehicleBody3D/pivot"]
 transform = Transform3D(-0.985903, 0, 0.167319, 0.07706, 0.887631, 0.454064, -0.148518, 0.460556, -0.875117, 0.225406, 1.35745, -3.06055)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="VehicleBody3D"]
+transform = Transform3D(1, 0, 0, 0, 0.866025, -0.5, 0, 0.5, 0.866025, 0, -0.228863, -1.12464)
+
+[node name="Surcador" type="MeshInstance3D" parent="VehicleBody3D/StaticBody3D"]
+mesh = ExtResource("13_g1wt1")
+skeleton = NodePath("../../..")
+surface_material_override/0 = SubResource("StandardMaterial3D_h0co2")
+surface_material_override/1 = SubResource("StandardMaterial3D_foa87")
+surface_material_override/2 = SubResource("StandardMaterial3D_enld1")
+surface_material_override/3 = SubResource("StandardMaterial3D_snfe4")
+surface_material_override/4 = SubResource("StandardMaterial3D_drkp8")
+surface_material_override/5 = SubResource("StandardMaterial3D_es0cu")
+surface_material_override/6 = SubResource("StandardMaterial3D_oji6d")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VehicleBody3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.148, -0.882767)
+shape = SubResource("BoxShape3D_8teb1")
+
+[node name="RayCast3D" type="RayCast3D" parent="VehicleBody3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.412547, -0.956453)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="VehicleBody3D"]
+libraries = {
+&"": SubResource("AnimationLibrary_lagky")
+}

@@ -14,3 +14,7 @@ config/name="Tractor IA"
 run/main_scene="uid://ux7vxowvnb7q"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://src/scripts/global.gd"
