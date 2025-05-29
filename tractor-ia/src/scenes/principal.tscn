@@ -28,6 +28,6 @@ transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75
 shadow_enabled = true
 
 [node name="tractor" parent="." instance=ExtResource("2_k0hga")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.367782, 1.68183, -0.671288)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -47.7697, 1.68183, -45.3685)
 
 [node name="Node3D2" parent="." instance=ExtResource("2_8opvm")]

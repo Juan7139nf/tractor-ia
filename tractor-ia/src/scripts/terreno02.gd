@@ -24,8 +24,10 @@ func _ready() -> void:
 	for i in range(filas):
 		var fila := []
 		for j in range(columnas):
-			var valor = randi() % 3
-			fila.append(valor)
+			if i < 3 or i >= filas - 3 or j < 3 or j >= columnas - 3:
+				fila.append(0)  # Bordes de 3 celdas
+			else:
+				fila.append(1)  # Interior
 		matriz.append(fila)
 	
 	# añadir planos
@@ -45,9 +47,9 @@ func _ready() -> void:
 				0:
 					material.albedo_color = Color(0.5, 0.5, 0.5)  # Gris
 				1:
-					material.albedo_color = Color(0.4, 0.26, 0.13)  # Café
-				2:
 					material.albedo_color = Color(0, 1, 0)  # Verde
+				2:
+					material.albedo_color = Color(0.4, 0.26, 0.13)  # Café
 			mesh_instance.set_surface_override_material(0, material)
 			add_child(mesh_instance)
 			fila_celdas.append(mesh_instance)
@@ -65,7 +67,11 @@ func _process(delta: float) -> void:
 
 	# Asegurarse de que los índices están dentro del rango
 	if i >= 0 and i < filas and j >= 0 and j < columnas:
-		var target_mesh = celdas[i][j]
-		var material = StandardMaterial3D.new()
-		material.albedo_color = Color(0, 0, 1)  # Azul
-		target_mesh.set_surface_override_material(0, material)
+		var valor_actual = matriz[i][j]
+
+		if valor_actual == 1:
+			var target_mesh = celdas[i][j]
+			var material = StandardMaterial3D.new()
+			material.albedo_color = Color(0.4, 0.26, 0.13)  # Café
+			target_mesh.set_surface_override_material(0, material)
+			matriz[i][j] = 2
