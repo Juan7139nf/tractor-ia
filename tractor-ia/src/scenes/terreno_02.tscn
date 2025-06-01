@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://dakwsxqeyeixj"]
+[gd_scene load_steps=8 format=3 uid="uid://dakwsxqeyeixj"]
 
 [ext_resource type="Script" uid="uid://dxarw24nuqum0" path="res://src/scripts/terreno02.gd" id="1_l3dmd"]
+[ext_resource type="Texture2D" uid="uid://nqsd6l4q13qc" path="res://src/assets/img/TreetrunkA.bmp.png" id="2_tvgar"]
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_uxrm8"]
 
@@ -8,6 +9,17 @@
 points = PackedVector3Array(-1, 0, -1, -1, 0, 1, 1, 0, -1, 1, 0, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_tvgar"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_571yj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aoaiw"]
+albedo_texture = ExtResource("2_tvgar")
+metallic_specular = 0.0
+roughness = 0.0
+roughness_texture = ExtResource("2_tvgar")
+normal_enabled = true
+normal_scale = 1.1
+normal_texture = ExtResource("2_tvgar")
 
 [node name="Node3D" type="Node3D"]
 
@@ -33,10 +45,15 @@ mesh = SubResource("BoxMesh_tvgar")
 skeleton = NodePath("../esquina01")
 
 [node name="esquina03" type="MeshInstance3D" parent="StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.5, 0, 50.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.9435, 0, 50.5)
 mesh = SubResource("BoxMesh_tvgar")
 
 [node name="esquina04" type="MeshInstance3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.5, 0, -50.5)
 mesh = SubResource("BoxMesh_tvgar")
 skeleton = NodePath("../esquina01")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -59.8947, 0, 0)
+mesh = SubResource("PlaneMesh_571yj")
+surface_material_override/0 = SubResource("StandardMaterial3D_aoaiw")

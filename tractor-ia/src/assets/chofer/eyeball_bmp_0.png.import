@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cweicsuc2fskg"
-path.bptc="res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"
+uid="uid://bu542kqdup5jb"
+path.s3tc="res://.godot/imported/eyeball_bmp_0.png-09b2ecfc8dc3aba823e703e0230e6637.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,13 +11,13 @@ metadata={
 
 [deps]
 
-source_file="res://src/assets/tractor/img/engineB.bmp.png"
-dest_files=["res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"]
+source_file="res://src/assets/chofer/eyeball_bmp_0.png"
+dest_files=["res://.godot/imported/eyeball_bmp_0.png-09b2ecfc8dc3aba823e703e0230e6637.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=true
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0

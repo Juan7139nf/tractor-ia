@@ -18,3 +18,8 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*res://src/scripts/global.gd"
+
+[rendering]
+
+global_illumination/gi/use_half_resolution=true
+global_illumination/voxel_gi/quality=1

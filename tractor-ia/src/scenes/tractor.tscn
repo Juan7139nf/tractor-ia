@@ -1,9 +1,10 @@
-[gd_scene load_steps=44 format=3 uid="uid://lu3gnlqtravn"]
+[gd_scene load_steps=41 format=3 uid="uid://lu3gnlqtravn"]
 
 [ext_resource type="ArrayMesh" uid="uid://bvlonasab64of" path="res://src/assets/tractor/body.obj" id="1_5dov8"]
 [ext_resource type="Script" uid="uid://bag0qbnly8xhs" path="res://src/scripts/tractor_control.gd" id="1_o4gen"]
 [ext_resource type="ArrayMesh" uid="uid://cdd6iqlpg6ce6" path="res://src/assets/tractor/RuedaT.obj" id="2_6f86y"]
 [ext_resource type="Texture2D" uid="uid://br7ntoixhc7xw" path="res://src/assets/tractor/img/BottomA.bmp.png" id="2_6mdf1"]
+[ext_resource type="PackedScene" uid="uid://dwmsq7r06uiu" path="res://src/scenes/sitting_idle.tscn" id="2_g3ll3"]
 [ext_resource type="Texture2D" uid="uid://nkvofms7dgpr" path="res://src/assets/tractor/img/willi_vTireA.bmp.png" id="3_25qnh"]
 [ext_resource type="ArrayMesh" uid="uid://dm40qrlebkcau" path="res://src/assets/tractor/RuedaD.obj" id="3_gjnad"]
 [ext_resource type="Texture2D" uid="uid://c5r1hhhhirvnv" path="res://src/assets/tractor/img/willi_vHoodNorm.bmp.png" id="3_qamaa"]
@@ -16,31 +17,50 @@
 [ext_resource type="Texture2D" uid="uid://13apapcel7vs" path="res://src/assets/gadgets/img/plowk_vRoof_bmp.png" id="14_g3ll3"]
 [ext_resource type="Texture2D" uid="uid://btvmxm4cspadm" path="res://src/assets/gadgets/img/plowk_vHoodNorm_bmp.png" id="15_ov03q"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ajol"]
-albedo_texture = ExtResource("3_qamaa")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o4gen"]
-albedo_texture = ExtResource("3_25qnh")
-
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g1wt1"]
-cull_mode = 2
-albedo_texture = ExtResource("2_6mdf1")
+albedo_texture = ExtResource("3_qamaa")
+metallic = 1.0
+metallic_texture = ExtResource("3_qamaa")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("3_qamaa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g3ll3"]
-cull_mode = 2
-albedo_texture = ExtResource("5_631v3")
+albedo_texture = ExtResource("3_25qnh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ov03q"]
 cull_mode = 2
+albedo_texture = ExtResource("2_6mdf1")
+metallic = 1.0
+metallic_texture = ExtResource("2_6mdf1")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("2_6mdf1")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3ajol"]
+albedo_texture = ExtResource("5_631v3")
+metallic = 1.0
+metallic_texture = ExtResource("5_631v3")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("5_631v3")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qeexc"]
 albedo_texture = ExtResource("6_qamaa")
+metallic = 1.0
+metallic_texture = ExtResource("6_qamaa")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("6_qamaa")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lagky"]
 cull_mode = 2
 albedo_texture = ExtResource("4_o4gen")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tp445"]
-cull_mode = 2
-albedo_texture = ExtResource("2_6mdf1")
+metallic = 1.0
+metallic_texture = ExtResource("4_o4gen")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("4_o4gen")
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_gjnad"]
 points = PackedVector3Array(0.318964, -0.450486, -1.12078, -0.295497, -0.450486, -1.12022, 0.293244, 0.365264, -0.770609, 0.386027, 0.469462, 1.73312, 0.385809, -0.340795, 1.59422, -0.356238, -0.340795, 1.59506, -0.356093, 0.469462, 1.73423, -0.269049, 0.365264, -0.77005)
@@ -68,30 +88,41 @@ albedo_texture = ExtResource("3_25qnh")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8gy7w"]
 albedo_texture = ExtResource("4_axs00")
+normal_texture = ExtResource("4_axs00")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h0co2"]
 albedo_texture = ExtResource("14_g3ll3")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_foa87"]
-albedo_texture = ExtResource("5_631v3")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_enld1"]
-albedo_texture = ExtResource("15_ov03q")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_snfe4"]
-albedo_texture = ExtResource("15_ov03q")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drkp8"]
-albedo_texture = ExtResource("15_ov03q")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_es0cu"]
-albedo_texture = ExtResource("14_g3ll3")
+metallic = 1.0
+roughness = 0.0
+normal_enabled = true
+normal_texture = ExtResource("14_g3ll3")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_oji6d"]
 albedo_texture = ExtResource("6_qamaa")
+metallic = 1.0
+metallic_texture = ExtResource("6_qamaa")
+roughness = 0.3
+normal_enabled = true
+normal_texture = ExtResource("6_qamaa")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_drkp8"]
+albedo_texture = ExtResource("15_ov03q")
+metallic = 1.0
+metallic_texture = ExtResource("15_ov03q")
+roughness = 0.0
+normal_enabled = true
+normal_texture = ExtResource("15_ov03q")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_es0cu"]
+albedo_texture = ExtResource("14_g3ll3")
+metallic = 1.0
+metallic_texture = ExtResource("14_g3ll3")
+roughness = 0.0
+normal_enabled = true
+normal_texture = ExtResource("14_g3ll3")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8teb1"]
-size = Vector3(1.68207, 0.513184, 0.46167)
+size = Vector3(1.73308, 0.526029, 0.58081)
 
 [sub_resource type="Animation" id="Animation_ov03q"]
 length = 0.001
@@ -153,16 +184,18 @@ _data = {
 mass = 2000.0
 script = ExtResource("1_o4gen")
 
+[node name="Sitting Idle" parent="VehicleBody3D" instance=ExtResource("2_g3ll3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.328263, -0.518966)
+
 [node name="Body" type="MeshInstance3D" parent="VehicleBody3D"]
 mesh = ExtResource("1_5dov8")
 skeleton = NodePath("../..")
-surface_material_override/0 = SubResource("StandardMaterial3D_3ajol")
-surface_material_override/1 = SubResource("StandardMaterial3D_o4gen")
-surface_material_override/2 = SubResource("StandardMaterial3D_g1wt1")
-surface_material_override/3 = SubResource("StandardMaterial3D_g3ll3")
-surface_material_override/4 = SubResource("StandardMaterial3D_ov03q")
+surface_material_override/0 = SubResource("StandardMaterial3D_g1wt1")
+surface_material_override/1 = SubResource("StandardMaterial3D_g3ll3")
+surface_material_override/2 = SubResource("StandardMaterial3D_ov03q")
+surface_material_override/3 = SubResource("StandardMaterial3D_3ajol")
+surface_material_override/4 = SubResource("StandardMaterial3D_qeexc")
 surface_material_override/5 = SubResource("StandardMaterial3D_lagky")
-surface_material_override/6 = SubResource("StandardMaterial3D_tp445")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="VehicleBody3D"]
 shape = SubResource("ConvexPolygonShape3D_gjnad")
@@ -233,7 +266,7 @@ surface_material_override/1 = SubResource("StandardMaterial3D_8gy7w")
 script = ExtResource("11_631v3")
 
 [node name="Camera3D" type="Camera3D" parent="VehicleBody3D/pivot"]
-transform = Transform3D(-1, 3.96891e-08, -7.78942e-08, 0, 0.891007, 0.45399, 8.74228e-08, 0.453991, -0.891006, 0.225406, 1.35745, -3.06055)
+transform = Transform3D(-1, 4.09077e-08, -7.72612e-08, 0, 0.883766, 0.46793, 8.74228e-08, 0.46793, -0.883766, 0, 1.71276, -3.70214)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="VehicleBody3D"]
 transform = Transform3D(1, 0, 0, 0, 0.866025, -0.5, 0, 0.5, 0.866025, 0, -0.228863, -1.12464)
@@ -242,19 +275,19 @@ transform = Transform3D(1, 0, 0, 0, 0.866025, -0.5, 0, 0.5, 0.866025, 0, -0.2288
 mesh = ExtResource("13_g1wt1")
 skeleton = NodePath("../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_h0co2")
-surface_material_override/1 = SubResource("StandardMaterial3D_foa87")
-surface_material_override/2 = SubResource("StandardMaterial3D_enld1")
-surface_material_override/3 = SubResource("StandardMaterial3D_snfe4")
+surface_material_override/1 = SubResource("StandardMaterial3D_oji6d")
+surface_material_override/2 = SubResource("StandardMaterial3D_drkp8")
+surface_material_override/3 = SubResource("StandardMaterial3D_drkp8")
 surface_material_override/4 = SubResource("StandardMaterial3D_drkp8")
 surface_material_override/5 = SubResource("StandardMaterial3D_es0cu")
 surface_material_override/6 = SubResource("StandardMaterial3D_oji6d")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="VehicleBody3D/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.148, -0.882767)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000532866, 0.120774, -0.823196)
 shape = SubResource("BoxShape3D_8teb1")
 
 [node name="RayCast3D" type="RayCast3D" parent="VehicleBody3D/StaticBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.412547, -0.956453)
+transform = Transform3D(1, 0, 0, 0, 1, 1.49012e-08, 0, -1.49012e-08, 1, 0, 0.245244, -0.911572)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="VehicleBody3D"]
 libraries = {

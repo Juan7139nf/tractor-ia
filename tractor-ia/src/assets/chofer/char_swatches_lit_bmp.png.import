@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cweicsuc2fskg"
-path.bptc="res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"
+uid="uid://dwercfgrr2yy6"
+path.s3tc="res://.godot/imported/char_swatches_lit_bmp.png-127b4da95231675e9fd917f7c9c60844.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,13 +11,13 @@ metadata={
 
 [deps]
 
-source_file="res://src/assets/tractor/img/engineB.bmp.png"
-dest_files=["res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"]
+source_file="res://src/assets/chofer/char_swatches_lit_bmp.png"
+dest_files=["res://.godot/imported/char_swatches_lit_bmp.png-127b4da95231675e9fd917f7c9c60844.s3tc.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=true
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
 compress/normal_map=0

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cf2ugvjblhklh"
-path.s3tc="res://.godot/imported/willi_vWheel.bmp.png-7911f0fd7c47aa99d0c2e4a8f4a41aa0.s3tc.ctex"
+path.bptc="res://.godot/imported/willi_vWheel.bmp.png-7911f0fd7c47aa99d0c2e4a8f4a41aa0.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,15 +12,15 @@ metadata={
 [deps]
 
 source_file="res://src/assets/tractor/img/willi_vWheel.bmp.png"
-dest_files=["res://.godot/imported/willi_vWheel.bmp.png-7911f0fd7c47aa99d0c2e4a8f4a41aa0.s3tc.ctex"]
+dest_files=["res://.godot/imported/willi_vWheel.bmp.png-7911f0fd7c47aa99d0c2e4a8f4a41aa0.bptc.ctex"]
 
 [params]
 
 compress/mode=2
-compress/high_quality=false
+compress/high_quality=true
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1

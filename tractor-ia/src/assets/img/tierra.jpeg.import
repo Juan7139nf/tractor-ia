@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cweicsuc2fskg"
-path.bptc="res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"
+uid="uid://d5ly81iqgqnl"
+path.bptc="res://.godot/imported/tierra.jpeg-0ba36b18fbbe86ef5ce1d401c4101e11.bptc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://src/assets/tractor/img/engineB.bmp.png"
-dest_files=["res://.godot/imported/engineB.bmp.png-f45fd359e08937a6a2b6ebb67d6e6a28.bptc.ctex"]
+source_file="res://src/assets/img/tierra.jpeg"
+dest_files=["res://.godot/imported/tierra.jpeg-0ba36b18fbbe86ef5ce1d401c4101e11.bptc.ctex"]
 
 [params]
 
@@ -20,13 +20,13 @@ compress/mode=2
 compress/high_quality=true
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/normal_map=0
-compress/channel_pack=0
+compress/normal_map=1
+compress/channel_pack=1
 mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
-process/fix_alpha_border=true
+process/fix_alpha_border=false
 process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false
